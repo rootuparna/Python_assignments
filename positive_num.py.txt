@@ -1,0 +1,12 @@
+#Display positive number from list
+
+myList = [46, 83, 59, 26, 10, 91, 33, 12]
+i = 0
+print(myList)
+#display list using loop
+while i < len(myList):
+    
+    if myList[i] % 2 == 0:
+        print(myList[i]) 
+    i = i + 1
+    

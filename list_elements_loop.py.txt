@@ -1,0 +1,16 @@
+#Display list elements using for and while loop
+
+myList = [46, 83, 59, 26, 46, 91, 33, 12]
+i = 0
+print(myList)
+#display list using loop
+while i < len(myList):
+    print(myList[i])
+    i = i + 1
+print("Using for loop")
+
+for num in myList:
+    print(num)
+
+ 
+    

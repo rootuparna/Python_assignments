@@ -1,0 +1,33 @@
+print("Hello world")
+
+first_tuple=(10,20,30)
+print(first_tuple)
+
+second_tuple=(40,50,60)
+print(second_tuple)
+
+t_combine= first_tuple + second_tuple
+print("t_combine=" , t_combine)
+
+#Repeat tuple 3 times
+res = ((t_combine, ) * 3)
+print(res)
+
+#Access 3rd element of t_combine
+print("Third element of tuple is" , t_combine[2])
+
+#Print first 3 elements of tuple
+print("First 3 elements:")
+i=0
+while i < 3:
+    print(t_combine[i])
+    i=i+1
+print("..........last 3 items.............") 
+#Reversing the tuple
+tuple_values = t_combine[::-1]
+print(tuple_values)
+
+j=0
+while j <  3:
+    print(tuple_values[j])
+    j=j+1

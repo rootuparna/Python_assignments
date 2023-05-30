@@ -1,0 +1,48 @@
+#Display list elements using for and while loop
+
+myList = [46, 83, 59, 26, 46, 91, 33, 12]
+i = 0
+print(myList)
+#display list using loop
+while i < len(myList):
+    print(myList[i])
+    i = i + 1
+print("Using for loop")
+
+for num in myList:
+    print(num)
+#########################################################################################
+
+#Display positive number from list
+
+myList = [46, 83, 59, 26, 10, 91, 33, 12]
+i = 0
+print(myList)
+#display list using loop
+while i < len(myList):
+    
+    if myList[i] % 2 == 0:
+        print(myList[i]) 
+    i = i + 1
+    
+    ###########################################################
+    #Greater of 2 numbers
+
+num1 = int(input("Enter first number: "))      
+num2 = int(input("Enter second number: ")) 
+ #Compare both the number 
+if num1 >= num2:   
+     if num1 == num2:    
+         print("Both numbers are equal.")       
+     else:  
+         print("Fisrt number is greater than the second number.")
+else:   
+     print("Second number is greater than the First number.") 
+	
+    ######################################################
+    #Print 1 to 10 in While Loop
+
+i = 1
+while(i<=10):
+    print(i)
+    i += 1
