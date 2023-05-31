@@ -1,0 +1,31 @@
+print("Hello world")
+
+my_list =[(1, 2, 3) , ("a", "b", "c") , (True , False)]
+print("Reading the elements of List:", my_list)
+index=0
+while index < len(my_list):
+    print(my_list[index])
+    index=index+1
+    
+print("Insert tuple in existing list:")
+my_list.insert(3, (1 , 'a', True))
+print(my_list)
+print("insert elements of tuple in List:")
+my_list.extend((2 , 'b', True))
+print(my_list)    
+
+print("Append a new list in existing list:")
+sparta = ["element1", "element2", "element3"]
+my_list.append(sparta)
+print(my_list)
+
+print("Empty Dictioneries can be created in 2 ways. Using curly braces and dict function")
+
+my_dictionery_one = {}
+print(my_dictionery_one)
+
+my_dictionery_two = dict()
+print(my_dictionery_two)
+
+student_info_dictioner = {'name': 'James', 'age': 25, 'location': 'Canada'}
+print(student_info_dictioner)
